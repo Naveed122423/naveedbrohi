@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveed Brohi- Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        /* Body and Font */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .about .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .portfolio .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .portfolio h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .work-item {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .work-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .work-item p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .portfolio-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .download-btn:hover {
+            background-color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            .portfolio h2 {
+                font-size: 24px;
+            }
+
+            .work-item h3 {
+                font-size: 20px;
+            }
+
+            .work-item p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Naveed Brohi</h1>
+            <p>Freelance Excel Expert & Portfolio Creator</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a skilled Excel expert and portfolio creator. I specialize in building professional portfolios, grade trackers, and custom Excel spreadsheets for students and professionals.</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            
+            <!-- Cover Design Example -->
+            <div class="work-item">
+                <h3>Cover Design Example</h3>
+                <img src="https://drive.google.com/file/d/11OoRrp33fPeqmHqr1x9d9MLyXzf7wqR8/view?usp=sharing" alt="Cover Design Example" class="portfolio-img">
+                <p>This is an example of a cover design I created for 9th-grade Computer Science notes. It's designed to be engaging and visually appealing for students.</p>
+            </div>
+
+            <!-- Student Grade Tracker PDF -->
+            <div class="work-item">
+                <h3>Student Grade Tracker</h3>
+                <p>This project is a detailed student grade tracker that helps track student performance throughout the semester.</p>
+                <p>You can download the full project below:</p>
+                <a href="https://drive.google.com/file/d/1pqYihRVb3ZMY2NTphUvkIFt7F8hcRAcW/view?usp=sharing" target="_blank" class="download-btn">Download Grade Tracker (PDF)</a>
+            </div>
+
+            <!-- Computer Science Notes PDF -->
+            <div class="work-item">
+                <h3>Computer Science Notes for 9th Class</h3>
+                <p>This is a PDF of detailed Computer Science notes for 9th-grade students, designed to make learning easier and more structured.</p>
+                <a href="https://drive.google.com/file/d/1vsgjSA0py49CzlEvyJuuL-Z5JE-4K4Ym/view?usp=sharing" target="_blank" class="download-btn">Download Notes (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact me at: your-email@example.com</p>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
